@@ -1,0 +1,13 @@
+# Основные зависимости для turbo-версии
+torch>=2.0.0
+transformers>=4.36.0
+accelerate
+librosa>=0.10.0
+soundfile
+tqdm
+yt-dlp
+faster_whisper
+
+# Дополнительные зависимости для pisets (если используете медленную версию)
+python-docx
+ffmpeg-python

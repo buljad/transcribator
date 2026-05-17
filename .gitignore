@@ -1,0 +1,42 @@
+# Результаты транскрипции
+transcripts/
+*.srt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Временные файлы
+*.tmp
+*.temp
+*.log
+
+# Модели и кэши
+.cache/
+models/
+*.safetensors
+*.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Скачанные видео (временные)
+downloads/
+temp/

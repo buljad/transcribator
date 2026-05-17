@@ -1,0 +1,11 @@
+video-transcriber/
+├── transcriber.py           # Основной скрипт (turbo версия)
+├── transcriber_pisets.py    # Альтернативная версия с pisets (медленная, но очень точная)
+├── requirements.txt         # Зависимости Python
+├── setup.py                # Установщик пакета  
+├── install.bat             # Установщик для Windows
+├── install.sh              # Установщик для Linux/Mac
+├── README.md               # Документация
+├── .gitignore              # Игнорирование файлов Git
+├── transcripts/            # Папка для результатов (создается автоматически)
+└── pisets/                 # Клон pisets (опционально, для медленной версии)
